@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carehome", "Carehome\Carehome.csproj", "{F4508D29-EA89-45F5-B7CD-9A265EF9975E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4508D29-EA89-45F5-B7CD-9A265EF9975E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4508D29-EA89-45F5-B7CD-9A265EF9975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4508D29-EA89-45F5-B7CD-9A265EF9975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4508D29-EA89-45F5-B7CD-9A265EF9975E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE4A75AD-F95C-4467-BC99-488EBF266C32}
+	EndGlobalSection
+EndGlobal

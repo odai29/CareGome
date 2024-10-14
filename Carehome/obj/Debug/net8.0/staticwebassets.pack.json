@@ -1,0 +1,1629 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Carehome.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Carehome.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\css\\style.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\img\\Admin.webp",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\Admin.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\assetsAdmin\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\js\\main.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assetsAdmin\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\assetsAdmin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\assetsAdmin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\flaticon\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\flaticon\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\flaticon\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\flaticon\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\flaticon\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\flaticon\\flaticon.css",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\flaticon\\flaticon.html",
+      "PackagePath": "staticwebassets\\fonts\\flaticon\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\fontawesome-all.min.css",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\fontawesome-all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\A_cozy.jpg",
+      "PackagePath": "staticwebassets\\img\\A_cozy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\0a1b9396-9619-4069-8803-6bc53c9ae80a.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\0a1b9396-9619-4069-8803-6bc53c9ae80a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\23f4da8f-d351-490e-8eac-6e555f4a0366.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\23f4da8f-d351-490e-8eac-6e555f4a0366.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\433fa45b-6893-4556-bd5e-bfb2ee762f8c.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\433fa45b-6893-4556-bd5e-bfb2ee762f8c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\76bbf3fb-c286-4acf-8c0d-2c827412aeff.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\76bbf3fb-c286-4acf-8c0d-2c827412aeff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\87e8bd40-81fc-4308-b578-5c8e076a897a.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\87e8bd40-81fc-4308-b578-5c8e076a897a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\97f8bca6-5ab8-4103-9d2f-77b5adbc29c1.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\97f8bca6-5ab8-4103-9d2f-77b5adbc29c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\c9d8747f-d5ea-48d8-a754-5e519dade7d7.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\c9d8747f-d5ea-48d8-a754-5e519dade7d7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\ded7c99b-d6a7-478d-a349-45fed58cfbbd.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\ded7c99b-d6a7-478d-a349-45fed58cfbbd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\e38c309c-f42c-40df-afd7-b9cd0b0646d6.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\e38c309c-f42c-40df-afd7-b9cd0b0646d6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImageSlider\\e8f96011-630f-4013-b5bc-2bc1c71cd14e.jpg",
+      "PackagePath": "staticwebassets\\img\\ImageSlider\\e8f96011-630f-4013-b5bc-2bc1c71cd14e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\1d00ea08-a679-48e6-9911-768a5f224d8e.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\1d00ea08-a679-48e6-9911-768a5f224d8e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\2d69ebdd-46a2-411f-98a2-d3e1b3e86341.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\2d69ebdd-46a2-411f-98a2-d3e1b3e86341.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\6da2b5b4-d75f-4a98-bae0-9bfcc86ff8b3.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\6da2b5b4-d75f-4a98-bae0-9bfcc86ff8b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\72747dbb-6fea-4744-b24d-e1f9b05377ee.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\72747dbb-6fea-4744-b24d-e1f9b05377ee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\86228fca-d4fc-40de-bfcd-7ecd6f61e7fb.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\86228fca-d4fc-40de-bfcd-7ecd6f61e7fb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\a2d5cee5-f36f-4290-96d4-b677436520a3.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\a2d5cee5-f36f-4290-96d4-b677436520a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\abbbda31-b9d2-44b9-b2d0-d3f3b3e6c227.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\abbbda31-b9d2-44b9-b2d0-d3f3b3e6c227.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\d5a13ba9-e639-45ae-beb6-437c10ea85c2.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\d5a13ba9-e639-45ae-beb6-437c10ea85c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\d7f177c3-30a2-473e-956d-b7659e5898fa.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\d7f177c3-30a2-473e-956d-b7659e5898fa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\e57f1d32-cb7f-4ab0-9d9f-130832a43f9c.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\e57f1d32-cb7f-4ab0-9d9f-130832a43f9c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\ImagesAnimals\\f59a3fd3-ffee-43f2-b411-eb9744b1d0fd.jpg",
+      "PackagePath": "staticwebassets\\img\\ImagesAnimals\\f59a3fd3-ffee-43f2-b411-eb9744b1d0fd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\about1.jpg",
+      "PackagePath": "staticwebassets\\img\\about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\about2.jpg",
+      "PackagePath": "staticwebassets\\img\\about2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoption1.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoption1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoption2.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoption2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoption3.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoption3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoption4.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoption4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoption5.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoption5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoption6.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoption6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoption7.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoption7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoption8.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoption8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoptionsingle1.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoptionsingle1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\adoption\\adoptionsingle2.jpg",
+      "PackagePath": "staticwebassets\\img\\adoption\\adoptionsingle2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\blurbimg.png",
+      "PackagePath": "staticwebassets\\img\\blurbimg.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\calltoaction.jpg",
+      "PackagePath": "staticwebassets\\img\\calltoaction.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\dog cat.jpg",
+      "PackagePath": "staticwebassets\\img\\dog cat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery10.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery11.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery12.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery5.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery6.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery7.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery8.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\gallery\\gallery9.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\gallery9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\jumbotron.jpg",
+      "PackagePath": "staticwebassets\\img\\jumbotron.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\mapmarker.png",
+      "PackagePath": "staticwebassets\\img\\mapmarker.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\service-single\\feature1.jpg",
+      "PackagePath": "staticwebassets\\img\\service-single\\feature1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\service-single\\feature2.jpg",
+      "PackagePath": "staticwebassets\\img\\service-single\\feature2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\service-single\\feature3.jpg",
+      "PackagePath": "staticwebassets\\img\\service-single\\feature3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\service-single\\feature4.jpg",
+      "PackagePath": "staticwebassets\\img\\service-single\\feature4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\service-single\\feature5.jpg",
+      "PackagePath": "staticwebassets\\img\\service-single\\feature5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\services2.jpg",
+      "PackagePath": "staticwebassets\\img\\services2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\services3.png",
+      "PackagePath": "staticwebassets\\img\\services3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\services\\service1 .jpg",
+      "PackagePath": "staticwebassets\\img\\services\\service1 .jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\services\\service2 .jpg",
+      "PackagePath": "staticwebassets\\img\\services\\service2 .jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\services\\service3 .jpg",
+      "PackagePath": "staticwebassets\\img\\services\\service3 .jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\services\\service4 .jpg",
+      "PackagePath": "staticwebassets\\img\\services\\service4 .jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\services\\service5 .jpg",
+      "PackagePath": "staticwebassets\\img\\services\\service5 .jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\slide1.jpg",
+      "PackagePath": "staticwebassets\\img\\slide1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\slide2.jpg",
+      "PackagePath": "staticwebassets\\img\\slide2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\slide3.jpg",
+      "PackagePath": "staticwebassets\\img\\slide3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\slide4.jpg",
+      "PackagePath": "staticwebassets\\img\\slide4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\team\\team1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\team\\team2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\team\\team3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\team\\team4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\img\\team\\team5.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\team5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\js\\counter.js",
+      "PackagePath": "staticwebassets\\js\\counter.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\js\\mailchimp.js",
+      "PackagePath": "staticwebassets\\js\\mailchimp.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\js\\map.js",
+      "PackagePath": "staticwebassets\\js\\map.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\js\\prefixfree.min.js",
+      "PackagePath": "staticwebassets\\js\\prefixfree.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\js\\respond.js",
+      "PackagePath": "staticwebassets\\js\\respond.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\php\\sendmail.php",
+      "PackagePath": "staticwebassets\\php\\sendmail.php"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\styles\\adoption.css",
+      "PackagePath": "staticwebassets\\styles\\adoption.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\styles\\agility.css",
+      "PackagePath": "staticwebassets\\styles\\agility.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\styles\\dogwalker.css",
+      "PackagePath": "staticwebassets\\styles\\dogwalker.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\styles\\maincolors.css",
+      "PackagePath": "staticwebassets\\styles\\maincolors.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\styles\\pethotel.css",
+      "PackagePath": "staticwebassets\\styles\\pethotel.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\styles\\petshop.css",
+      "PackagePath": "staticwebassets\\styles\\petshop.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\styles\\vetclinic.css",
+      "PackagePath": "staticwebassets\\styles\\vetclinic.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\css\\layerslider.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\css\\layerslider.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\js\\greensock.js",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\js\\greensock.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\js\\layerslider.kreaturamedia.jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\js\\layerslider.kreaturamedia.jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\js\\layerslider.load.js",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\js\\layerslider.load.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\js\\layerslider.transitions.js",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\js\\layerslider.transitions.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\gradient-1.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\gradient-1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\gradient-2.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\gradient-2.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\gradient-3.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\gradient-3.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\gradient-4.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\gradient-4.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\gradient-circle-1.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\gradient-circle-1.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\grid_hard.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\grid_hard.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\grid_medium.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\grid_medium.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\grid_small.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\grid_small.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\grid_stripes_left.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\grid_stripes_left.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\overlays\\grid_stripes_right.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\overlays\\grid_stripes_right.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\plugins\\debug\\layerslider.debug.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\plugins\\debug\\layerslider.debug.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\plugins\\debug\\layerslider.debug.js",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\plugins\\debug\\layerslider.debug.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\plugins\\origami\\layerslider.origami.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\plugins\\origami\\layerslider.origami.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\plugins\\origami\\layerslider.origami.js",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\plugins\\origami\\layerslider.origami.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\plugins\\popup\\layerslider.popup.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\plugins\\popup\\layerslider.popup.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\plugins\\popup\\layerslider.popup.js",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\plugins\\popup\\layerslider.popup.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\plugins\\timeline\\layerslider.timeline.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\plugins\\timeline\\layerslider.timeline.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\plugins\\timeline\\layerslider.timeline.js",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\plugins\\timeline\\layerslider.timeline.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark3d\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark3d\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark3d\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark3d\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark3d\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark3d\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark3d\\shadow.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark3d\\shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark3d\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark3d\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark3d\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark3d\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark\\shadow.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark\\shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlessdark\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlessdark\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight3d\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight3d\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight3d\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight3d\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight3d\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight3d\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight3d\\shadow.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight3d\\shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight3d\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight3d\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight3d\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight3d\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight\\shadow.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight\\shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\borderlesslight\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\borderlesslight\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\carousel\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\carousel\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\carousel\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\carousel\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\carousel\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\carousel\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\carousel\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\carousel\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\carousel\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\carousel\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\darkskin\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\darkskin\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\darkskin\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\darkskin\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\darkskin\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\darkskin\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\darkskin\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\darkskin\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\darkskin\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\darkskin\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\defaultskin\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\defaultskin\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\defaultskin\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\defaultskin\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\defaultskin\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\defaultskin\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\defaultskin\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\defaultskin\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\defaultskin\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\defaultskin\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidth\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidth\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidth\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidth\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidth\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidth\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidth\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidth\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidth\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidth\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidthdark\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidthdark\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidthdark\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidthdark\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidthdark\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidthdark\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidthdark\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidthdark\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\fullwidthdark\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\fullwidthdark\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\glass\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\glass\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\glass\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\glass\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\glass\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\glass\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\glass\\shadow.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\glass\\shadow.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\glass\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\glass\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\glass\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\glass\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\lightskin\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\lightskin\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\lightskin\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\lightskin\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\lightskin\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\lightskin\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\lightskin\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\lightskin\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\lightskin\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\lightskin\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\minimal\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\minimal\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\minimal\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\minimal\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\minimal\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\minimal\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\minimal\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\minimal\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\minimal\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\minimal\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\noskin\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\noskin\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\noskin\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\noskin\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\noskin\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\noskin\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\noskin\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\noskin\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\noskin\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\noskin\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\numbers\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\numbers\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\numbers\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\numbers\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\numbers\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\numbers\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\outline\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\outline\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\outline\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\outline\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\outline\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\outline\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\photogallery\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\photogallery\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\photogallery\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\photogallery\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\photogallery\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\photogallery\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\photogallery\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\photogallery\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\roundedflat\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\roundedflat\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\roundedflat\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\roundedflat\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\roundedflat\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\roundedflat\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\v5\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\v5\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\v5\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\v5\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\v5\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\v5\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\v5\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\v5\\skin.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\v5\\skin.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\v5\\skin.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\v6\\info.json",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\v6\\info.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\v6\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\v6\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\v6\\nothumb.png",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\v6\\nothumb.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\source\\bootcamp\\Carehome\\Carehome\\wwwroot\\vendor\\layerslider\\skins\\v6\\skin.css",
+      "PackagePath": "staticwebassets\\vendor\\layerslider\\skins\\v6\\skin.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Carehome.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Carehome.props",
+      "PackagePath": "build\\Carehome.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Carehome.props",
+      "PackagePath": "buildMultiTargeting\\Carehome.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Carehome.props",
+      "PackagePath": "buildTransitive\\Carehome.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

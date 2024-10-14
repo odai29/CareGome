@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Carehome.Areas.Dashboard.Models.Visit>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid overlay">
+    <div class="jumbo-heading">
+        <!-- section-heading -->
+        <div class="section-heading" data-aos="zoom-in">
+            <h1>Appointment </h1>
+        </div>
+        <!-- /section-heading -->
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Visit </li>
+            </ol>
+        </nav>
+    </div>
+    <!-- /jumbo-heading -->
+</div>
+<div class="container-fluid pt-4 px-4">
+    <div class="col-12">
+        <div class="rounded h-100 p-4">
+            <h1 class="mb-4 text-center">Appointments Grooming</h1>
+            <p class="text-end">
+                <a class="btn btn-primary" asp-action="Create">Create New</a>
+            </p>
+            <div class="d-flex flex-wrap justify-content-start">
+                @foreach (var visit in Model)
+                {
+                    <div class="card m-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 22rem;">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="@Url.Content("~/"+visit.Animal.Image)" class="border-irregular1 img-fluid" alt="" style="width: 50px; height: 50px; object-fit: cover; margin-right: 10px;">
+                                <h5 class="card-title mb-0">@visit.Animal.Name</h5>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">@visit.VisitingDate.ToString("yyyy-MM-dd")</h6>
+                            <p class="card-text">@visit.Description</p>
+                            <hr />
+                            <h6>Services:</h6>
+                            <ul class="list-group list-group-flush">
+                                @foreach (var service in visit.VisitServices)
+                                {
+                                    <li class="list-group-item">@service.Service.Name</li>
+                                }
+                            </ul>
+                            <hr />
+                            <p class="card-text"><strong>Total Price: @visit.VisitServices.Sum(vs => vs.Service.Price) JD</strong></p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    .border-irregular1 {
+        border-radius: 50%;
+        overflow: hidden;
+    }
+</style>

@@ -1,0 +1,134 @@
+﻿@model VisitServicesViewModel
+
+@{
+
+    ViewData["Title"] = "Create Visit";
+}
+
+<div class="container-fluid pt-4 px-4">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h4>Create Visit</h4>
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+          
+            <div class="mb-3">
+                <label for="ownerName" class="control-label">Owner Name</label>
+                <input type="text" class="form-control" id="ownerName" placeholder="Enter owner name" />
+            </div>
+            
+
+
+            <div class="mb-3">
+           
+                <label asp-for="AnimalId" class="control-lable">Owner's Pets</label>
+                <select  asp-for="AnimalId" class="form-control" id="AnimalId">
+                <option value="">Select Animal</option>
+            </select>
+            </div>
+           
+            <div class="mb-3">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" value="date.ToString(" yyyy-MM-dd HH:mm")" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+
+          
+            <div class="mb-3">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
+                <label asp-for="SelectedServiceIds">Select Services:</label>
+                <div>
+                    @foreach (var service in Model.Services)
+                    {
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input service-checkbox"
+                                   id="service_@service.Id"
+                                   name="SelectedServiceIds"
+                                   value="@service.Id"
+                                   data-price="@service.Price"
+                                   onchange="calculateTotalPrice()" />
+                            <label class="form-check-label" for="service_@service.Id">
+                                @service.ServiceName - @service.Price JD
+                            </label>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="form-group mt-3">
+                <label>Total Price: <span id="totalPrice">0.00 JD</span></label>
+            </div>
+            <!-- Submit Button -->
+            <div class="form-group mt-2">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+   
+    $(document).ready(function () {
+       
+        $('#ownerName').on('input', function () {
+            var ownerName = $(this).val();  
+
+            if (ownerName) {
+               
+                $.ajax({
+                    url: '/Visit/SearchAnimalByOwner',  
+                    method: 'GET',
+                    data: { ownerName: ownerName },
+                    success: function (data) {
+                        var select = $('#AnimalId');
+                        select.empty();  
+                        select.append('<option value="">Select Animal</option>');  
+
+                      
+                        $.each(data, function (index, item) {
+                            select.append($('<option>', {
+                                value: item.id,
+                                text: item.name
+                            }));
+                        });
+                    },
+                    error: function () {
+                        alert('Error loading animals');
+                    }
+                });
+            } else {
+              
+                var select = $('#AnimalId');
+                select.empty(); 
+                select.append('<option value="">Select Animal</option>');  
+            }
+        });
+    });
+
+
+   
+    function calculateTotalPrice() {
+        const checkboxes = document.querySelectorAll('.service-checkbox');
+        let total = 0;
+
+        checkboxes.forEach(function (checkbox) {
+            if (checkbox.checked) {
+                total += parseFloat(checkbox.getAttribute('data-price')) || 0;
+            }
+        });
+
+        const totalPriceElement = document.getElementById('totalPrice');
+        totalPriceElement.textContent = total.toFixed(2) + ' JD';
+    }
+</script>

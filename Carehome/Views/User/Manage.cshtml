@@ -1,0 +1,33 @@
+﻿@model UserRolesViewModel
+@{
+    Layout = "~/Areas/Dashboard/Views/Shared/_DashboardLayout.cshtml";
+    ViewData["Title"] = "ManageUser";
+}
+<h1 style="text-align:center">Manage User</h1>
+<form asp-action="Manage" method="post">
+    <div class="card  mt-4 p-4 bg-secondary rounded h-100 p-4"style="padding-left:30px;padding-right:30px">
+        <div class="card-header">
+            <h2>@Model.Username</h2>
+            Add\Remove Role
+        </div>
+        <div class="card-body">
+            <input type="hidden"asp-for="UserId" />
+            @for (int i = 0; i < Model.Roles.Count; i++)
+            {
+                <div class="form-check m-1">
+                    <input type="hidden"asp-for="@Model.Roles[i].RoleName" />
+                    <input asp-for="@Model.Roles[i].IsSelected"class="form-check-input" />
+                    <label asp-for="@Model.Roles[i].IsSelected"class="form-check-label">
+                        @Model.Roles[i].RoleName
+                    </label>
+
+                </div>
+
+            }
+        </div>
+        <div class="card-footer">
+            <input type="submit"value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+</form>
+

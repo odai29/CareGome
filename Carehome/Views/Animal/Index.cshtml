@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Carehome.Areas.Dashboard.Models.Animal>
+
+    <style>
+    .adopt-card {
+        margin-bottom: 30px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%; 
+    }
+
+    .thumbnail {
+        flex: 1; 
+    }
+
+    .caption-adoption {
+        margin-top: auto;
+
+    .img-fluid {
+        max-height: 200px;  
+        object-fit: cover; 
+        width: 100%; 
+    }
+    </style>
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid overlay">
+    <div class="jumbo-heading">
+        <!-- section-heading -->
+        <div class="section-heading" data-aos="zoom-in">
+            <h1>My Animals </h1>
+        </div>
+        <!-- /section-heading -->
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">My Animals</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- /jumbo-heading -->
+</div>
+<!-- /jumbotron -->
+<div class="container ">
+   
+  
+    <div class="text-center mt-5">
+         <a asp-action="Create"class="btn btn-secondary btn-lg">Create New Animal</a>
+        <a class="btn btn-secondary btn-lg " asp-action="Create" asp-controller="Visit">Create a pet visit Grooming</a>
+        <a class="btn btn-secondary btn-lg " asp-action="PetHotelList" asp-controller="Home">Invoices Pet Hotel</a>
+     
+
+    </div>
+   
+    <div class="row mt-5">
+        <!-- Pet -->
+        @foreach (var item in Model)
+        {
+            <div class="adopt-card col-md-6 col-xl-3 res-margin d-flex align-items-stretch">
+                <div class="card bg-light-custom w-100">
+                    <div class="thumbnail text-center">
+                        <!-- Image -->
+                        <img src="@Url.Content("~/"+item.Image)" class="border-irregular1 img-fluid" alt="">
+                        <!-- Name -->
+                        <div class="caption-adoption">
+                            <h6 class="adoption-header">@Html.DisplayFor(modelItem => item.Name)</h6>
+                            <!-- List -->
+                            <ul class="list-unstyled">
+                                <li><strong>Gender:</strong> @Html.DisplayFor(modelItem => item.Gender)</li>
+                                <li><strong>Species: </strong> @Html.DisplayFor(modelItem => item.Species)</li>
+                                <li><strong>Age:</strong> @Html.DisplayFor(modelItem => item.Age) month</li>
+                            </ul>
+                            <!-- Buttons -->
+                        </div>
+                    </div>
+                    <!-- /thumbnail -->
+                </div>
+                <!-- /card -->
+            </div>
+        }
+    </div>
+</div>

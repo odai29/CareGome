@@ -1,0 +1,122 @@
+﻿@model IEnumerable<Carehome.Areas.Dashboard.Models.HealthCare>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@* <h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicalExaminations)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.MedicalExaminations.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TreatmentType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TreatmentDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Treatmentprice)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Animals)
+            </th>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.TotalPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedicalExaminations.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedicalExaminations.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TreatmentType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TreatmentDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Treatmentprice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Animals.Name)
+                </td>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalPrice)
+                </td>
+              
+            </tr>
+        }
+    </tbody>
+</table>
+
+ *@
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid overlay">
+    <div class="jumbo-heading">
+        <!-- section-heading -->
+        <div class="section-heading" data-aos="zoom-in">
+            <h1>Appointment Health Care </h1>
+        </div>
+        <!-- /section-heading -->
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Health Care </li>
+            </ol>
+        </nav>
+    </div>
+    <!-- /jumbo-heading -->
+</div>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header text-white " style="background-color: #ffc107 !important;">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Animals.Name)</h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">
+                        <strong>Medical Examination:</strong> @Html.DisplayFor(modelItem => item.MedicalExaminations.Name)<br />
+                        <strong>Price:</strong> @Html.DisplayFor(modelItem => item.MedicalExaminations.Price) JD<br />
+                        <strong>Treatment Type:</strong> @Html.DisplayFor(modelItem => item.TreatmentType)<br />
+                        <strong>Description:</strong> @Html.DisplayFor(modelItem => item.TreatmentDescription)<br />
+                        <strong>Date:</strong> @Html.DisplayFor(modelItem => item.Date)<br />
+                        <strong>Treatment Price:</strong> @Html.DisplayFor(modelItem => item.Treatmentprice) JD<br />
+                        <strong>Total Price:</strong> @Html.DisplayFor(modelItem => item.TotalPrice) JD
+                    </p>
+                   
+                </div>
+            </div>
+        </div>
+    }
+</div>

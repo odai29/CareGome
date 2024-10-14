@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Carehome.Areas.Dashboard.Models.PetHotel>
+
+@{
+    ViewData["Title"] = "PetHotelList";
+}
+
+
+<style>
+    .invoice-card {
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-right:0px;
+        width: 400px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+        
+
+    }
+
+        .invoice-card h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    .invoice-details p, .invoice-details ul {
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+    }
+
+    .invoice-details ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+</style>
+<div class="row"style="margin-right:0">
+
+    <i class="fa-solid fa-dog"></i>
+    <center> <h2>invoice Pet Hotel</h2></center>
+
+
+    <hr />
+    @foreach (var item in Model)
+    {
+        <div class="invoice-card col-md-4">
+
+            <div class="invoice-details">
+                <p><strong>Owner:</strong> @Html.DisplayFor(modelItem => item.Animals.OwnerUser.UserName)</p>
+                <p><strong>Animal Name:</strong>  @Html.DisplayFor(modelItem => item.Animals.Name)</p>
+                <p><strong>Date:</strong> @Html.DisplayFor(modelItem => item.StartDate) to @Html.DisplayFor(modelItem => item.EndDate)</p>
+                <p><strong>Pet Hotel:</strong></p>
+
+                <p><strong>Total Price:</strong>  @Html.DisplayFor(modelItem => item.TotalPrice)</p>
+            </div>
+
+        </div>
+    }
+
+</div>

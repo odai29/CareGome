@@ -1,0 +1,57 @@
+﻿@model Carehome.Areas.Dashboard.Models.Animal
+
+@{
+    ViewBag.ActionName = Model == null ? "Create" : "Edit";
+    ViewData["Title"] = "Create";
+}
+
+
+
+<hr />
+<h4>Animal</h4>
+
+
+<div class=" container-fluid pt-4 px-4">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h6 class="mb-4">@ViewBag.ActionName Profile Animal</h6>
+        <form asp-action="@ViewBag.ActionName" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Species" class="control-label"></label>
+                <input asp-for="Species" class="form-control" />
+                <span asp-validation-for="Species" class="text-danger"></span>
+            </div>
+            <div class="mb-3 ">
+                <label asp-for="Gender" class="control-label"></label>
+                <input asp-for="Gender" class="form-control" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="mb-3 ">
+                <label asp-for="Age" class="control-label"></label>
+                <input asp-for="Age"type="number" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="mb-3 ">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image"type="file" name="Image" class="form-control" />
+                
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+           
+          
+
+
+            <input type="submit" value="Save" class="btn btn-primary" />
+            <hr />
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+
+        </form>
+    </div>
+</div> 

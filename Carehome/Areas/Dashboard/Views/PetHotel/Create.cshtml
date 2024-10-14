@@ -1,0 +1,136 @@
+﻿@model Carehome.Areas.Dashboard.Models.PetHotel
+
+@{
+    ViewBag.ActionName = Model == null ? "Create" : "Edit";
+    ViewData["Title"] = "Create";
+}
+
+<div class=" container-fluid pt-4 px-4">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h4>Pets Hotel</h4>
+       
+        <form asp-action="@ViewBag.ActionName">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           
+            <div class="mb-3">
+                <label for="ownerName" class="control-label">Owner Name</label>
+                <input type="text" class="form-control" id="ownerName" placeholder="Enter owner name" />
+            </div>
+
+
+
+            <div class="mb-3">
+                <label asp-for="AnimalId" class="control-lable">Owner's Pets</label>
+                <select asp-for="AnimalId" class="form-control" id="AnimalId">
+                    <option value="">Select Animal</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <div class="form-group">
+                    <label asp-for="StartDate" class="control-label"></label>
+                    <input asp-for="StartDate"  id="StartDate" onchange="TotalPriceCalculation()" name="StartDate" class="form-control" />
+                    <span asp-validation-for="StartDate" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" id="EndDate" onchange="TotalPriceCalculation()" name="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PriceOfDay" class="control-label"></label>
+                <input asp-for="PriceOfDay" id="PriceOfDay" onchange="TotalPriceCalculation()" name="PriceOfDay" class="form-control" />
+                <span asp-validation-for="PriceOfDay" class="text-danger"></span>
+            </div>
+
+
+            <div class="mb-3">
+                <label asp-for="TotalPrice" class="control-label"></label>
+                <input asp-for="TotalPrice" id="TotalPrice" name="TotalPrice" class="form-control" readonly />
+                <span asp-validation-for="TotalPrice" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <div class="form-group">
+                    <label asp-for="NumberOfDays" class="control-label"></label>
+                    <input asp-for="NumberOfDays"  id="NumberOfDays" name="NumberOfDays" class="form-control"  readonly/>
+                    <span asp-validation-for="NumberOfDays" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <input type="submit" value="Save" class="btn btn-primary" />
+            <hr />
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script>
+
+    $(document).ready(function () {
+
+        $('#ownerName').on('input', function () {
+            var ownerName = $(this).val();
+
+            if (ownerName) {
+
+                $.ajax({
+                    url: '/PetHotel/SearchAnimalByOwner',
+                    method: 'GET',
+                    data: { ownerName: ownerName },
+                    success: function (data) {
+                        var select = $('#AnimalId');
+                        select.empty();
+                        select.append('<option value="">Select Animal</option>');
+
+
+                        $.each(data, function (index, item) {
+                            select.append($('<option>', {
+                                value: item.id,
+                                text: item.name
+                            }));
+                        });
+                    },
+                    error: function () {
+                        alert('Error loading animals');
+                    }
+                });
+            } else {
+
+                var select = $('#AnimalId');
+                select.empty();
+                select.append('<option value="">Select Animal</option>');
+            }
+        });
+    });
+
+
+
+
+
+
+
+    function TotalPriceCalculation() {
+        var startDate = new Date(document.getElementById('StartDate').value);
+        var endDate = new Date(document.getElementById('EndDate').value);
+        var priceOfDay = parseFloat(document.getElementById('PriceOfDay').value);
+
+       
+        var timeDifference = endDate.getTime() - startDate.getTime();
+        var numberOfDays = Math.ceil(timeDifference / (1000 * 3600 * 24)); 
+       
+        document.getElementById('NumberOfDays').value = numberOfDays;
+
+    
+        var totalPrice = numberOfDays * priceOfDay;
+
+        document.getElementById('TotalPrice').value = totalPrice.toFixed(2); 
+    }
+</script>

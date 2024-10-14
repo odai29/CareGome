@@ -1,0 +1,205 @@
+﻿@model IEnumerable<Carehome.Areas.Dashboard.Models.Visit>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    });
+
+
+    function openPopup(visitId) {
+      
+        var servicesContent = document.getElementById('servicesContent');
+         servicesContent.innerHTML = ''; 
+
+     
+        var visitServices = document.querySelectorAll('[data-visit-id="' + visitId + '"] .service-name');
+        visitServices.forEach(function (service, index) {
+            console.log("Row " + index + ": " + service.textContent);
+            var serviceName = service.textContent;
+            var p = document.createElement('p');
+            p.textContent = serviceName;
+            servicesContent.appendChild(p);
+        });
+
+       
+        document.getElementById('myPopup').style.display = 'block';
+    }
+
+   
+    function closePopup() {
+        document.getElementById('myPopup').style.display = 'none';
+    }
+
+
+
+
+</script>
+
+<style>
+
+    .popup {
+        display: none; 
+        position: fixed; 
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 1;
+        overflow: hidden; 
+    }
+
+  
+    .popup-content {
+        background-color: #191C24 !important;
+        
+        margin: 5% auto; /* توسيط المحتوى */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 30%;
+        height: 60%; /* تحديد ارتفاع ثابت للنافذة */
+        overflow-y: auto; /* السماح بالتمرير العمودي داخل النافذة */
+        text-align: center;
+        border-radius: 8px;
+        position: relative;
+    }
+
+    /* زر الإغلاق */
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+</style>
+<div class="container-fluid pt-4 px-4">
+    <div class="col-12">
+        <div class="bg-secondary rounded h-100 p-4">
+            <h1 class="mb-4">Appointments</h1>
+            <div class="table-responsive">
+                <p>
+                    <a asp-action="Create">Create New</a>
+                </p>
+                <table class="table" id="myTable">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+
+                            <th>Animal Name</th>
+                            <th>Description</th>
+                            <th>Visiting Date</th>
+                            <th>Services</th>
+
+                            <th>Total Price</th>
+                            <th>Action </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @{
+                            int count = 1;
+                        }
+                        @foreach (var visit in Model)
+                        {
+                            <tr>
+                                <td>@count</td>
+                                <td>@visit.Animal.Name</td>
+                                <td>@visit.Description</td>
+                                <td>@visit.VisitingDate.ToString("yyyy-MM-dd")</td>
+                                <td>
+                                 
+                                    <button class="btn btn-outline-success" onclick="openPopup(@visit.Id)">Services</button>
+                                </td>
+
+                             
+                                <div id="myPopup" class="popup">
+                                    <div class="popup-content">
+                                        <span class="close-btn" onclick="closePopup()">&times;</span>
+                                        <div class="modal-header" style="background-color:#EB1616 ">
+                                            <h2 class="modal-title">Service Animal</h2>
+                                        </div>
+                                        <div id="servicesContent"style="margin-top:20px">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="display: none;">
+                                    <div data-visit-id="@visit.Id">
+                                        @foreach (var service in visit.VisitServices)
+                                        {
+                                            <span class="service-name">@service.Service.Name</span>
+                                        }
+                                    </div>
+                                </div>
+                                <td>
+                                    @{
+                                        var totalPrice = visit.VisitServices.Sum(vs => vs.Service.Price);
+                                    }
+                                    @totalPrice JD
+                                </td>
+
+
+
+
+                                <td>
+                                    <a class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal-@visit.Id">
+                                        <i class="fas fa-trash-alt delete-icon"></i>
+
+                                    </a>
+
+                                    <div class="modal" id="exampleModal-@visit.Id">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content" style="background-color:gray">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Visit</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Are you Sure Delete </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <form asp-action="Delete" asp-route-id="@visit.Id" method="post">
+                                                        @Html.AntiForgeryToken()
+
+                                                        <button type="submit" class="btn btn-danger rounded-pill m-2">Delete</button>
+                                                    </form>
+
+                                                    <button type="button" class="btn btn-dark rounded-pill m-2" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <a type="button" asp-action="Edit" asp-controller="Visit" asp-area="Dashboard" asp-route-id="@visit.Id" class="btn btn-info">
+                                        <i class="fas fa-edit edit-icon"></i>
+                                    </a>
+
+                                </td>
+                            </tr>
+
+                            count++;
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

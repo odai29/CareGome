@@ -1,0 +1,95 @@
+﻿
+
+@model Carehome.Areas.Dashboard.ViewModels.VisitServicesViewModel
+
+@{
+   
+    ViewData["Title"] = "Create Visit Grooming";
+}
+
+
+
+
+
+
+<div class="container-fluid pt-4 px-4">
+    <div class="rounded shadow-lg p-4 bg-light">
+        <h4 class="text-center text-primary mb-4">Book a Grooming Visit</h4>
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Animal Dropdown -->
+            <div class="mb-3">
+                <label asp-for="AnimalId" class="control-label text-secondary">Select Your Pet</label>
+                <select asp-for="AnimalId" class="form-control border rounded" asp-items="@(ViewBag.Animals)">
+                    <option value="">Select Animal</option>
+                </select>
+                <span asp-validation-for="AnimalId" class="text-danger"></span>
+            </div>
+
+            <!-- Date Input -->
+            <div class="mb-3">
+                <label asp-for="Date" class="control-label text-secondary">Appointment Date & Time</label>
+                <input asp-for="Date" class="form-control border rounded" value="date.ToString(" yyyy-MM-dd HH:mm")" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+
+            <!-- Description Input -->
+            <div class="mb-3">
+                <label asp-for="Description" class="control-label text-secondary">Grooming Details</label>
+                <textarea asp-for="Description" class="form-control border rounded"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <!-- Services Checkboxes -->
+            <div class="form-group">
+                <label class="text-secondary">Select Services:</label>
+                <div class="row">
+                    @foreach (var service in Model.Services)
+                    {
+                        <div class="col-md-6 mb-2">
+                            <div class="form-check bg-white border rounded p-2">
+                                <input type="checkbox" class="form-check-input service-checkbox" style="background-color: #ffc107"
+                                       id="service_@service.Id"
+                                       name="SelectedServiceIds"
+                                       value="@service.Id"
+                                       data-price="@service.Price"
+                                       onchange="calculateTotalPrice()" />
+                                <label class="form-check-label" for="service_@service.Id">
+                                    @service.ServiceName - @service.Price JD
+                                </label>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Total Price Display -->
+            <div class="form-group mt-3">
+                <label class="text-secondary">Total Price: <span id="totalPrice" class="font-weight-bold">0.00 JD</span></label>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group text-center mt-4">
+                <input type="submit" value="Book Now" class="btn btn-success btn-lg px-5" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script>
+    function calculateTotalPrice() {
+        const checkboxes = document.querySelectorAll('.service-checkbox');
+        let total = 0;
+
+        checkboxes.forEach(function (checkbox) {
+            if (checkbox.checked) {
+                total += parseFloat(checkbox.getAttribute('data-price')) || 0; 
+            }
+        });
+
+        const totalPriceElement = document.getElementById('totalPrice');
+        totalPriceElement.textContent = total.toFixed(2) + ' JD';
+    }
+</script>

@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Carehome.Areas.Dashboard.Models.Animal>
+
+<!-- /nav --><!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid overlay">
+    <div class="jumbo-heading">
+        <!-- section-heading -->
+        <div class="section-heading" data-aos="zoom-in">
+            <h1>Gallery</h1>
+        </div>
+        <!-- /section-heading -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index"asp-controller="Home">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Gallery </li>
+            </ol>
+        </nav>
+    </div>
+    <!-- /jumbo-heading -->
+</div>
+<!-- /jumbotron -->
+<!-- ==== Page Content ==== -->
+<div class="page pb-0">
+    <!-- centered Gallery navigation -->
+
+ 
+    
+     <ul class="nav nav-pills  center-nav">
+        <li class="nav-item">
+            <a class="nav-link " asp-action="Gallery" asp-controller="Animal" asp-route-filter="">All</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " asp-action="Gallery" asp-controller="Animal" asp-route-filter="cats"> Cats</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " asp-action="Gallery" asp-controller="Animal" asp-route-filter="dogs"> Dogs</a>
+        </li>
+    </ul> 
+  
+
+    <!-- /ul -->
+    <!-- Gallery -->
+    <section id="gallery" class="dog-bg1 bg-light pb-0">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2>Our Gallery</h2>
+            </div>
+            <!-- /Section-heading -->
+        </div>
+        <!-- /container -->
+        <!-- Gallery -->
+        <div id="gallery-isotope" class="mt-5">
+            <!-- Image 1 -->
+            @foreach (var img in Model)
+            {
+                <div class="dogscats col-lg-3 col-sm-6 col-md-6">
+                    <div class="isotope-item">
+                        <div class="gallery-thumb">
+
+                            <img class="img-fluid" src="@Url.Content("~/"+img.Image)" alt="">
+                            <a href="@Url.Content("~/"+img.Image)" title="">
+                                <span class="overlay-mask"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <!-- /gallery-isotope-->
+    </section>
+      
+
+            <!-- /gallery-isotope-->
+</div>
+<!-- /page -->

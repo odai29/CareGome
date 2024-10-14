@@ -1,0 +1,36 @@
+﻿@model Carehome.Areas.Dashboard.Controllers.HomeController
+@* <div style="background-image: url('img\slide2.jpg');">
+    <h1><center><b>Welcome @User.Identity?.Name</b></center></h1>
+
+</div> *@
+ 
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+    .full-page-background {
+background-image: url('img/dog cat.jpg');
+       
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome-text {
+        color: black;
+        font-size: 2.5em;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.7); /* خلفية بيضاء شفافة خلف النص */
+        padding: 20px;
+        border-radius: 10px;
+    }
+</style>
+
+<div class="full-page-background">
+    <h1 class="welcome-text"><b>Welcome Admin @User.Identity?.Name</b></h1>
+</div

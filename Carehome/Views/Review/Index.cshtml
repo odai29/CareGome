@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Carehome.Areas.Dashboard.Models.Review>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid overlay">
+    <div class="jumbo-heading">
+        <!-- section-heading -->
+        <div class="section-heading" data-aos="zoom-in">
+            <h1>Review</h1>
+        </div>
+        <!-- /section-heading -->
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Review</li>
+            </ol>
+        </nav>
+    </div>
+    <!-- /jumbo-heading -->
+</div>
+<!-- /jumbotron -->
+<div class="container bottom-block-padding">
+    <h3 class="text-center">What our clients say</h3>
+    <div class="col-md-12 mt-5">
+
+
+        <div id="owl-testimonial" class="owl-carousel owl-theme">
+            <!-- testimonial -->
+            @foreach (var item in Model)
+            {
+                <div class="testimonial">
+                    <div class="content">
+                        <p class="description">
+                            @Html.DisplayFor(modelItem => item.Message)
+                        </p>
+                    </div>
+
+                    <div class="testimonial-review">
+                        <h5 class="testimonial-title">@Html.DisplayFor(modelItem => item.Subject)</h5>
+                        <span> @Html.DisplayFor(modelItem => item.Name)</span>
+                    </div>
+                    <!-- /testimonial-review -->
+                </div>
+           }
+        </div> 
+        <!-- /owl-testimonial -->
+    </div>
+    <!-- /col-md-12 -->
+</div>

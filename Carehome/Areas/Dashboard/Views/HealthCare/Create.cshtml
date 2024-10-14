@@ -1,0 +1,132 @@
+﻿@model Carehome.Areas.Dashboard.Models.HealthCare
+
+@* @{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>HealthCare</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="AnimalId" class="control-label"></label>
+                <select asp-for="AnimalId" class="form-control" asp-items="@(new SelectList(ViewBag.Animals,"Id","DisplayText"))">
+                    <option>Select Animal_Owner</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MedicalExaminationId" class="control-label"></label>
+                <select asp-for="MedicalExaminationId" class="form-control" asp-items="@(new SelectList(ViewBag.Examinations,"Id","ExamText"))">
+                    <option>Select Medical Examination (Price) </option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TreatmentType" class="control-label"></label>
+                <input asp-for="TreatmentType" class="form-control" />
+                <span asp-validation-for="TreatmentType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TreatmentDescription" class="control-label"></label>
+                <input asp-for="TreatmentDescription" class="form-control" />
+                <span asp-validation-for="TreatmentDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Treatmentprice" class="control-label"></label>
+                <input asp-for="Treatmentprice" class="form-control" />
+                <span asp-validation-for="Treatmentprice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalPrice" class="control-label"></label>
+                <input asp-for="TotalPrice" class="form-control" />
+                <span asp-validation-for="TotalPrice" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+ *@
+
+ @{
+    ViewBag.ActionName = Model == null ? "Create" : "Edit";
+    ViewData["Title"] = "Create";
+}
+
+<div class=" container-fluid pt-4 px-4">
+    <div class="bg-secondary rounded h-100 p-4">
+        <h4>Health Care</h4>
+        <h6 class="mb-4">@ViewBag.ActionName Health Care</h6>
+        <form asp-action="@ViewBag.ActionName">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <div class="form-group">
+                    <label asp-for="AnimalId" class="control-label"></label>
+                    <select asp-for="AnimalId" class="form-control" asp-items="@(new SelectList(ViewBag.AnimalsList,"Id","DisplayText"))">
+                        <option> Selact Animal_Owner </option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label asp-for="MedicalExaminationId" class="control-label"></label>
+                <select asp-for="MedicalExaminationId"  class="form-control" asp-items="@(new SelectList(ViewBag.Examinations,"Id","ExamText"))">
+                    <option>Select Medical Examination (Price) </option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="TreatmentType" class="control-label"></label>
+                <input asp-for="TreatmentType" class="form-control" />
+                <span asp-validation-for="TreatmentType" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="TreatmentDescription" class="control-label"></label>
+                <input asp-for="TreatmentDescription" class="form-control" />
+                <span asp-validation-for="TreatmentDescription" class="text-danger"></span>
+            </div>
+
+
+            <div class="mb-3">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Treatmentprice" class="control-label"></label>
+                <input asp-for="Treatmentprice" class="form-control" />
+                <span asp-validation-for="Treatmentprice" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="TotalPrice" class="control-label"></label>
+                <input asp-for="TotalPrice" class="form-control" />
+                <span asp-validation-for="TotalPrice" class="text-danger"></span>
+            </div>
+
+
+            <input type="submit" value="Save" class="btn btn-primary" />
+            <hr />
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+ 

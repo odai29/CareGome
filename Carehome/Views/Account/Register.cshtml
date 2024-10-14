@@ -1,0 +1,170 @@
+﻿@model Carehome.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1 style="text-align:center">Register</h1>
+
+
+@* <hr />
+<div class="col-md-4">
+<img src="~/img/blurbimg.png" />
+</div>
+<div class="row container mt-5 d-flex justify-content-center">
+    
+    <div class="col-md-8 " style="width:450px;margin-left:300px">
+        <form asp-action="Register" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="confirmPassword" class="control-label"></label>
+                <input asp-for="confirmPassword" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        </form>
+       
+
+    </div>
+
+    <div style="text-align:center;margin-left:0px">
+        <p> I Have  <a asp-action="Login"> Account</a> </p>
+
+    </div>
+</div>
+ *@
+<div class="container mt-5">
+    <div class="row d-flex justify-content-center">
+        <!-- العمود الذي يحتوي على الصورة -->
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+            <img src="~/img/blurbimg.png" class="img-fluid" alt="Image Description" />
+        </div>
+
+        <!-- العمود الذي يحتوي على النموذج -->
+        <div class="col-md-6">
+            <form asp-action="Register" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                </div>
+               @*  <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                </div> *@
+                <div class="form-group position-relative">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" id="password" class="form-control" type="password" />
+                    <span id="togglePassword" class="eye-icon">
+                        <i class="far fa-eye"></i>
+                    </span>
+                </div>
+@* 
+                <div class="form-group">
+                    <label asp-for="confirmPassword" class="control-label"></label>
+                    <input asp-for="confirmPassword" class="form-control" />
+                </div> *@
+                <div class="form-group position-relative">
+                    <label asp-for="confirmPassword" class="control-label"></label>
+                    <input asp-for="confirmPassword" id="confirmPassword" class="form-control" type="password" />
+                    <span id="toggleConfirmPassword" class="eye-icon">
+                        <i class="far fa-eye"></i>
+                    </span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Register" class="btn btn-primary" />
+                </div>
+            </form>
+
+            <div style="text-align:center;">
+                <p>I Have <a asp-action="Login">Account</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-group {
+        position: relative;
+    }
+
+    /* إضافة مساحة للأيقونة داخل حقل الإدخال */
+    .form-control {
+        padding-right: 40px; /* مساحة كافية للأيقونة */
+        width: 100%; /* تأكد من أن الإدخال يملأ العرض */
+        box-sizing: border-box; /* لضمان أن padding جزء من العرض الإجمالي */
+    }
+
+    /* الأيقونة داخل حقل الإدخال */
+    .eye-icon {
+        position: absolute;
+        top: 40px;
+        right: 10px;
+        z-index: 2;
+        color: #868686;
+    }
+
+        /* تغيير لون الأيقونة عند التمرير فوقها */
+        .eye-icon:hover {
+            color: #000;
+        }
+
+</style>
+<script>
+    document.getElementById('togglePassword').addEventListener('click', function () {
+        var passwordInput = document.getElementById('password');
+        var icon = this.querySelector('i');
+
+        // تبديل نوع الإدخال بين password و text
+        if (passwordInput.type === 'password') {
+            passwordInput.type = 'text';  
+            icon.classList.remove('fa-eye');
+            icon.classList.add('fa-eye-slash'); 
+        } else {
+            passwordInput.type = 'password';  
+            icon.classList.remove('fa-eye-slash');
+            icon.classList.add('fa-eye');  
+        }
+    });
+
+    // إظهار/إخفاء كلمة المرور في حقل "Confirm Password"
+    document.getElementById('toggleConfirmPassword').addEventListener('click', function () {
+        var confirmPasswordInput = document.getElementById('confirmPassword');
+        var icon = this.querySelector('i');
+
+        // تبديل نوع الإدخال بين password و text
+        if (confirmPasswordInput.type === 'password') {
+            confirmPasswordInput.type = 'text';  // تغيير النوع إلى نص لعرض كلمة المرور
+            icon.classList.remove('fa-eye');
+            icon.classList.add('fa-eye-slash');  // تغيير الأيقونة إلى العين المغلقة
+        } else {
+            confirmPasswordInput.type = 'password';  // إعادة النوع إلى password لإخفاء كلمة المرور
+            icon.classList.remove('fa-eye-slash');
+            icon.classList.add('fa-eye');  // تغيير الأيقونة إلى العين المفتوحة
+        }
+    });
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> SignInManager;
+@inject UserManager<IdentityUser> UserManager;
+
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="" >
+            <a asp-action="Manage" asp-controller="Account"class="me-1" style="color:black">Hello @User.Identity?.Name !</a> 
+        <a asp-action="Logout" asp-controller="Account" style="color:black">  Logout </a>
+        </li>
+
+        <li>
+           
+        </li>
+    }
+    else
+    {
+        <li class="" >
+        <a asp-action="Login" asp-controller="Account" class="me-1" style="color:black"> Login </a>
+        <a asp-action="Register" asp-controller="Account" style="color:black">Register </a>
+
+        </li>
+        <li class="" >
+            
+
+        </li>
+    }
+   @*  header-top-contact me-2 *@
+
+

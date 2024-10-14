@@ -1,0 +1,51 @@
+﻿@model IEnumerable<IdentityRole>
+
+@{
+    Layout = "~/Areas/Dashboard/Views/Shared/_DashboardLayout.cshtml";
+    ViewData["Title"] = "Index";
+}
+
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    });
+</script>
+
+<div class="bg-secondary rounded h-100 p-4 mt-4">
+
+    <h1>Index</h1>
+
+    <partial name="_RoleForm" model="new RoleFormViewModel()" />
+    <div class="table-responsive">
+        <table class="table" id="myTable">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">@Html.DisplayNameFor(model => model.Name)</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int count = 1;
+                }
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="row">@count</th>
+                        <td>  @Html.DisplayFor(modelItem => item.Name)</td>
+
+                    </tr>
+                    count++;
+                }
+
+
+            </tbody>
+        </table>
+    </div>
+</div>

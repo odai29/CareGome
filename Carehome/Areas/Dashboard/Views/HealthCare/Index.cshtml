@@ -1,0 +1,148 @@
+﻿@model IEnumerable<Carehome.Areas.Dashboard.Models.HealthCare>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    });
+</script>
+
+<div class="container-fluid pt-4 px-4">
+    <div class="col-12">
+        <div class="bg-secondary rounded h-100 p-4">
+            <h1 class="mb-4">Health Care</h1>
+            <div class="table-responsive">
+                <p>
+                    <a asp-action="Create">Create New</a>
+                </p>
+                <table class="table" id="myTable">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.TreatmentType)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.TreatmentDescription)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Date)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Treatmentprice)
+                            </th>
+                            
+                            <th>
+                                @Html.DisplayNameFor(model => model.MedicalExaminations.Price)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Animals.Name)
+                            </th>
+                            <th>
+                                Owner
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.MedicalExaminations.Name)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.TotalPrice)
+                            </th>
+                            <th>Action</th>
+
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int count = 1;
+                        }
+                        @foreach (var item in Model)
+                        {
+
+
+                            <tr>
+                                <th scope="row">@count</th>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.TreatmentType)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.TreatmentDescription)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Date)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Treatmentprice)
+                                </td>
+                                
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.MedicalExaminations.Price)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Animals.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Animals.OwnerUser.UserName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.MedicalExaminations.Name)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.TotalPrice)JD
+                                </td>
+                                <td>
+                                    <a class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal-@item.Id">
+                                        <i class="fas fa-trash-alt delete-icon"></i>
+
+                                    </a>
+
+                                    <div class="modal" id="exampleModal-@item.Id">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content" style="background-color:gray">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Health Care</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true"></span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Are you Sure Delete </p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <form asp-action="Delete" asp-route-id="@item.Id" method="post">
+                                                        @Html.AntiForgeryToken()
+
+                                                        <button type="submit" class="btn btn-danger rounded-pill m-2">Delete</button>
+                                                    </form>
+
+                                                    <button type="button" class="btn btn-dark rounded-pill m-2" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <a type="button" asp-action="Edit" asp-controller="HealthCare" asp-area="Dashboard" asp-route-id="@item.Id" class="btn btn-info">
+                                        <i class="fas fa-edit edit-icon"></i>
+                                    </a>
+
+                                </td>
+                            </tr>
+
+                            count++;
+                        }
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
